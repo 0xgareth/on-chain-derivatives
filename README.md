@@ -1,6 +1,6 @@
-# on-chain-derivatives
+# Options, futures, and on chain derivatives
 
-Options, futures, and on chain derivatives - a repo exploring the construction of financial instruments on chain.
+A repo exploring the construction of financial instruments on chain.
 
 ## Interest rate swaps
 
