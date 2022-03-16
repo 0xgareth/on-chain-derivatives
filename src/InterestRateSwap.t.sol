@@ -3,13 +3,13 @@ pragma solidity ^0.8.6;
 
 import "ds-test/test.sol";
 
-import "./OnChainDerivatives.sol";
+import "./InterestRateSwap.sol";
 
-contract OnChainDerivativesTest is DSTest {
-    OnChainDerivatives derivatives;
+contract InterestRateSwapTest is DSTest {
+    InterestRateSwap derivatives;
 
     function setUp() public {
-        derivatives = new OnChainDerivatives();
+        derivatives = new InterestRateSwap();
     }
 
     function testFail_basic_sanity() public {
